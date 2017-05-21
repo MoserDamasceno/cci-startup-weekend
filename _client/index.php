@@ -8,20 +8,20 @@
         <meta name="description" content="A fully featured admin theme which can be used to build CRM, CMS, etc.">
         <meta name="author" content="Coderthemes">
 
-        <link rel="shortcut icon" href="assets/images/favicon.ico">
+        <link rel="shortcut icon" href="../assets/images/favicon.ico">
 
         <title>CCI - Cotrate Confie Indique</title>
 
         <!--Morris Chart CSS -->
-		<link rel="stylesheet" href="assets/plugins/morris/morris.css">
+		<link rel="stylesheet" href="../assets/plugins/morris/morris.css">
 
-        <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-        <link href="assets/css/core.css" rel="stylesheet" type="text/css" />
-        <link href="assets/css/components.css" rel="stylesheet" type="text/css" />
-        <link href="assets/css/icons.css" rel="stylesheet" type="text/css" />
-        <link href="assets/css/pages.css" rel="stylesheet" type="text/css" />
-        <link href="assets/css/menu.css" rel="stylesheet" type="text/css" />
-        <link href="assets/css/responsive.css" rel="stylesheet" type="text/css" />
+        <link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="../assets/css/core.css" rel="stylesheet" type="text/css" />
+        <link href="../assets/css/components.css" rel="stylesheet" type="text/css" />
+        <link href="../assets/css/icons.css" rel="stylesheet" type="text/css" />
+        <link href="../assets/css/pages.css" rel="stylesheet" type="text/css" />
+        <link href="../assets/css/menu.css" rel="stylesheet" type="text/css" />
+        <link href="../assets/css/responsive.css" rel="stylesheet" type="text/css" />
 
         <!-- HTML5 Shiv and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -30,7 +30,7 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
         <![endif]-->
 
-        <script src="assets/js/modernizr.min.js"></script>
+        <script src="../assets/js/modernizr.min.js"></script>
 
     </head>
 
@@ -46,7 +46,7 @@
                     <div class="topbar-left">
                         <a href="?page=dashboard" class="logo">
                             <span>CC<span>I</span></span>
-                            <!--<span><img src="assets/images/logo.png" alt="logo" style="height: 20px;"></span>-->
+                            <!--<span><img src="../assets/images/logo.png" alt="logo" style="height: 20px;"></span>-->
                         </a>
                     </div>
                     <!-- End Logo container-->
@@ -184,7 +184,7 @@
 
                             <li class="dropdown user-box">
                                 <a href="#" class="dropdown-toggle waves-effect waves-light profile " data-toggle="dropdown" aria-expanded="true">
-                                    <img src="assets/images/users/avatar-1.jpg" alt="user-img" class="img-circle user-img">
+                                    <img src="../assets/images/users/avatar-1.jpg" alt="user-img" class="img-circle user-img">
                                     <div class="user-status away"><i class="zmdi zmdi-dot-circle"></i></div>
                                 </a>
 
@@ -220,31 +220,31 @@
         <?php include((isset($_GET['page']) ? $_GET['page'] : 'login') . '.html'); ?>
 
         <!-- jQuery  -->
-        <script src="assets/js/jquery.min.js"></script>
-        <script src="assets/js/bootstrap.min.js"></script>
-        <script src="assets/js/detect.js"></script>
-        <script src="assets/js/fastclick.js"></script>
-        <script src="assets/js/jquery.slimscroll.js"></script>
-        <script src="assets/js/jquery.blockUI.js"></script>
-        <script src="assets/js/waves.js"></script>
-        <script src="assets/js/wow.min.js"></script>
-        <script src="assets/js/jquery.nicescroll.js"></script>
-        <script src="assets/js/jquery.scrollTo.min.js"></script>
+        <script src="../assets/js/jquery.min.js"></script>
+        <script src="../assets/js/bootstrap.min.js"></script>
+        <script src="../assets/js/detect.js"></script>
+        <script src="../assets/js/fastclick.js"></script>
+        <script src="../assets/js/jquery.slimscroll.js"></script>
+        <script src="../assets/js/jquery.blockUI.js"></script>
+        <script src="../assets/js/waves.js"></script>
+        <script src="../assets/js/wow.min.js"></script>
+        <script src="../assets/js/jquery.nicescroll.js"></script>
+        <script src="../assets/js/jquery.scrollTo.min.js"></script>
 
         <!--Morris Chart-->
-		<script src="assets/plugins/morris/morris.min.js"></script>
-		<script src="assets/plugins/raphael/raphael-min.js"></script>
+		<script src="../assets/plugins/morris/morris.min.js"></script>
+		<script src="../assets/plugins/raphael/raphael-min.js"></script>
 
         <!-- Counter Up  -->
-        <script src="assets/plugins/waypoints/lib/jquery.waypoints.js"></script>
-        <script src="assets/plugins/counterup/jquery.counterup.min.js"></script>
+        <script src="../assets/plugins/waypoints/lib/jquery.waypoints.js"></script>
+        <script src="../assets/plugins/counterup/jquery.counterup.min.js"></script>
 
         <!-- Dashboard init -->
-        <script src="assets/pages/jquery.dashboard.js"></script>
+        <script src="../assets/pages/jquery.dashboard.js"></script>
 
         <!-- App js -->
-        <script src="assets/js/jquery.core.js"></script>
-        <script src="assets/js/jquery.app.js"></script>
+        <script src="../assets/js/jquery.core.js"></script>
+        <script src="../assets/js/jquery.app.js"></script>
 
     </body>
 
