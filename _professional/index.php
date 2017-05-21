@@ -44,14 +44,13 @@
 
                     <!-- LOGO -->
                     <div class="topbar-left">
-                        <a href="?page=dashboard" class="logo">
+                        <a href="../" class="logo">
                             <span>T<span>P</span></span>
                             <!--<span><img src="../assets/images/logo.png" alt="logo" style="height: 20px;"></span>-->
                         </a>
                     </div>
                     <!-- End Logo container-->
 
-                    <?php if (isset($_GET['page'])): ?>
                     <div class="navbar-custom navbar-left">
                         <div id="navigation">
                             <!-- Navigation Menu-->
@@ -65,13 +64,11 @@
                             <!-- End navigation menu  -->
                         </div>
                     </div>
-                    <?php endif; ?>
 
 
                     <div class="menu-extras">
 
                         <ul class="nav navbar-nav navbar-right pull-right">
-                            <?php if (isset($_GET['page'])): ?>
                             <li>
                                 <form role="search" class="navbar-left app-search pull-left hidden-xs">
                                      <input type="text" placeholder="Search..." class="form-control">
@@ -108,7 +105,6 @@
                                     <li><a href="?"><i class="ti-power-off m-r-5"></i> Logout</a></li>
                                 </ul>
                             </li>
-                            <?php endif; ?>
                         </ul>
                         <div class="menu-item">
                             <!-- Mobile menu toggle-->
