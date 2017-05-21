@@ -133,7 +133,7 @@
         <div class="wrapper">
             <div class="container">
 
-                <?php include((isset($_GET['page']) ? $_GET['page'] : 'login') . '.html'); ?>
+                <?php include((isset($_GET['page']) ? $_GET['page'] : 'dashboard') . '.html'); ?>
 
                 <!-- Footer -->
                 <footer class="footer text-right">
