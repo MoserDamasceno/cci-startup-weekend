@@ -1,213 +1,105 @@
-<div class="wrapper">
-    <div class="container">
+<!-- Page-Title -->
+<div class="row">
+    <div class="col-sm-12">
+        <ul class="nav nav-pills nav-pills-custom display-xs-none pull-right m-t-25">
+            <li role="presentation" class="active"><a href="#">Hoje</a></li>
+            <li role="presentation"><a href="#">Ontem</a></li>
+            <li role="presentation"><a href="#">Semana passada</a></li>
+        </ul>
 
-        <!-- Page-Title -->
-        <div class="row">
-            <div class="col-sm-12">
-                <ul class="nav nav-pills nav-pills-custom display-xs-none pull-right m-t-25">
-                    <li role="presentation" class="active"><a href="#">Hoje</a></li>
-                    <li role="presentation"><a href="#">Ontem</a></li>
-                    <li role="presentation"><a href="#">Semana passada</a></li>
-                </ul>
+        <h4 class="page-title">Orçamentos</h4>
+    </div>
+</div>
 
-                <h4 class="page-title">Orçamentos</h4>
+<div class="row">
+    <div class="col-lg-4">
+        <div class="card-box">
+
+            <h4 class="header-title m-t-0 m-b-30">Solicitados</h4>
+
+            <div class="inbox-widget nicescroll">
+                <a href="?page=budget">
+                    <div class="inbox-item">
+                        <div class="inbox-item-img"><img src="../assets/images/users/avatar-1.jpg" class="img-circle" alt=""></div>
+                        <p class="inbox-item-author">Dougras</p>
+                        <p class="inbox-item-text">Ops! Minha privada entupiu...</p>
+                        <p class="inbox-item-date">13:40</p>
+                    </div>
+                </a>
+                <a href="?page=budget">
+                    <div class="inbox-item">
+                        <div class="inbox-item-img"><img src="../assets/images/users/avatar-2.jpg" class="img-circle" alt=""></div>
+                        <p class="inbox-item-author">Estanislau</p>
+                        <p class="inbox-item-text">Socorro! Meu chuveiro queimou...</p>
+                        <p class="inbox-item-date">13:34</p>
+                    </div>
+                </a>
+                <a href="?page=budget">
+                    <div class="inbox-item">
+                        <div class="inbox-item-img"><img src="../assets/images/users/avatar-3.jpg" class="img-circle" alt=""></div>
+                        <p class="inbox-item-author">David</p>
+                        <p class="inbox-item-text">Preciso trocar meu telhado...</p>
+                        <p class="inbox-item-date">13:17</p>
+                    </div>
+                </a>
+                <a href="?page=budget">
+                    <div class="inbox-item">
+                        <div class="inbox-item-img"><img src="../assets/images/users/avatar-4.jpg" class="img-circle" alt=""></div>
+                        <p class="inbox-item-author">Roberto</p>
+                        <p class="inbox-item-text">Procuro pintor...</p>
+                        <p class="inbox-item-date">12:20</p>
+                    </div>
+                </a>
             </div>
         </div>
+    </div><!-- end col -->
 
-        <div class="row">
-            <div class="col-lg-4">
-                <div class="card-box">
+    <div class="col-lg-8">
+        <div class="card-box">
 
-                    <h4 class="header-title m-t-0 m-b-30">Solicitados</h4>
+            <h4 class="header-title m-t-0 m-b-30">Enviados</h4>
 
-                    <div class="inbox-widget nicescroll">
-                        <a href="?page=budget">
-                            <div class="inbox-item">
-                                <div class="inbox-item-img"><img src="../assets/images/users/avatar-1.jpg" class="img-circle" alt=""></div>
-                                <p class="inbox-item-author">Dougras</p>
-                                <p class="inbox-item-text">Ops! Minha privada entupiu...</p>
-                                <p class="inbox-item-date">13:40</p>
-                            </div>
-                        </a>
-                        <a href="?page=budget">
-                            <div class="inbox-item">
-                                <div class="inbox-item-img"><img src="../assets/images/users/avatar-2.jpg" class="img-circle" alt=""></div>
-                                <p class="inbox-item-author">Estanislau</p>
-                                <p class="inbox-item-text">Socorro! Meu chuveiro queimou...</p>
-                                <p class="inbox-item-date">13:34</p>
-                            </div>
-                        </a>
-                        <a href="?page=budget">
-                            <div class="inbox-item">
-                                <div class="inbox-item-img"><img src="../assets/images/users/avatar-3.jpg" class="img-circle" alt=""></div>
-                                <p class="inbox-item-author">David</p>
-                                <p class="inbox-item-text">Preciso trocar meu telhado...</p>
-                                <p class="inbox-item-date">13:17</p>
-                            </div>
-                        </a>
-                        <a href="?page=budget">
-                            <div class="inbox-item">
-                                <div class="inbox-item-img"><img src="../assets/images/users/avatar-4.jpg" class="img-circle" alt=""></div>
-                                <p class="inbox-item-author">Roberto</p>
-                                <p class="inbox-item-text">Procuro pintor...</p>
-                                <p class="inbox-item-date">12:20</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div><!-- end col -->
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Status</th>
+                        <th>Cliente</th>
+                        <th>Data</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td><span class="label label-danger">Recusado</span></td>
+                        <td>Dougras</td>
+                        <td>01/05/2017</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td><span class="label label-success">Aceito</span></td>
+                        <td>João</td>
+                        <td>01/05/2017</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td><span class="label label-pink">Aguardando</span></td>
+                        <td>Maria</td>
+                        <td>01/05/2017</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td><span class="label label-purple">Negociando</span>
+                        <td>André</td>
+                        <td>01/05/2017</td>
+                    </tr>
 
-            <div class="col-lg-8">
-                <div class="card-box">
-
-                    <h4 class="header-title m-t-0 m-b-30">Enviados</h4>
-
-                    <div class="table-responsive">
-                        <table class="table">
-                            <thead>
-                            <tr>
-                                <th>#</th>
-                                <th>Status</th>
-                                <th>Cliente</th>
-                                <th>Data</th>
-                            </tr>
-                            </thead>
-                            <tbody>
-                            <tr>
-                                <td>1</td>
-                                <td><span class="label label-danger">Recusado</span></td>
-                                <td>Dougras</td>
-                                <td>01/05/2017</td>
-                            </tr>
-                            <tr>
-                                <td>2</td>
-                                <td><span class="label label-success">Aceito</span></td>
-                                <td>João</td>
-                                <td>01/05/2017</td>
-                            </tr>
-                            <tr>
-                                <td>3</td>
-                                <td><span class="label label-pink">Aguardando</span></td>
-                                <td>Maria</td>
-                                <td>01/05/2017</td>
-                            </tr>
-                            <tr>
-                                <td>4</td>
-                                <td><span class="label label-purple">Negociando</span>
-                                <td>André</td>
-                                <td>01/05/2017</td>
-                            </tr>
-
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div><!-- end col -->
-
-        </div>
-        <!-- end row -->
-
-
-        <!-- Footer -->
-        <footer class="footer text-right">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-6">
-                        2017 © CCI.
-                    </div>
-                    <div class="col-xs-6">
-                        <ul class="pull-right list-inline m-b-0">
-                            <li>
-                                <a href="#">About</a>
-                            </li>
-                            <li>
-                                <a href="#">Help</a>
-                            </li>
-                            <li>
-                                <a href="#">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+                    </tbody>
+                </table>
             </div>
-        </footer>
-        <!-- End Footer -->
-
-    </div>
-    <!-- end container -->
-
-    <!-- Right Sidebar -->
-    <div class="side-bar right-bar">
-        <a href="javascript:void(0);" class="right-bar-toggle">
-            <i class="zmdi zmdi-close-circle-o"></i>
-        </a>
-        <h4 class="">Notifications</h4>
-        <div class="notification-list nicescroll">
-            <ul class="list-group list-no-border user-list">
-                <li class="list-group-item">
-                    <a href="#" class="user-list-item">
-                        <div class="avatar">
-                            <img src="../assets/images/users/avatar-2.jpg" alt="">
-                        </div>
-                        <div class="user-desc">
-                            <span class="name">Michael Zenaty</span>
-                            <span class="desc">There are new settings available</span>
-                            <span class="time">2 hours ago</span>
-                        </div>
-                    </a>
-                </li>
-                <li class="list-group-item">
-                    <a href="#" class="user-list-item">
-                        <div class="icon">
-                            <i class="zmdi zmdi-account"></i>
-                        </div>
-                        <div class="user-desc">
-                            <span class="name">New Signup</span>
-                            <span class="desc">There are new settings available</span>
-                            <span class="time">5 hours ago</span>
-                        </div>
-                    </a>
-                </li>
-                <li class="list-group-item">
-                    <a href="#" class="user-list-item">
-                        <div class="icon">
-                            <i class="zmdi zmdi-comment"></i>
-                        </div>
-                        <div class="user-desc">
-                            <span class="name">New Message received</span>
-                            <span class="desc">There are new settings available</span>
-                            <span class="time">1 day ago</span>
-                        </div>
-                    </a>
-                </li>
-                <li class="list-group-item">
-                    <a href="#" class="user-list-item">
-                        <div class="avatar">
-                            <img src="../assets/images/users/avatar-3.jpg" alt="">
-                        </div>
-                        <div class="user-desc">
-                            <span class="name">James Anderson</span>
-                            <span class="desc">There are new settings available</span>
-                            <span class="time">2 days ago</span>
-                        </div>
-                    </a>
-                </li>
-                <li class="list-group-item active">
-                    <a href="#" class="user-list-item">
-                        <div class="icon">
-                            <i class="zmdi zmdi-settings"></i>
-                        </div>
-                        <div class="user-desc">
-                            <span class="name">Settings</span>
-                            <span class="desc">There are new settings available</span>
-                            <span class="time">1 day ago</span>
-                        </div>
-                    </a>
-                </li>
-
-            </ul>
         </div>
-    </div>
-    <!-- /Right-bar -->
+    </div><!-- end col -->
 
 </div>
+<!-- end row -->
