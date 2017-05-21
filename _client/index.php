@@ -8,7 +8,7 @@
         <meta name="description" content="A fully featured admin theme which can be used to build CRM, CMS, etc.">
         <meta name="author" content="Coderthemes">
 
-        <link rel="shortcut icon" href="../assets/images/favicon.ico">
+        <link rel="shortcut icon" href="../assets/images/favicon.ico?v=2">
 
         <title>TP - To Precisando</title>
 
@@ -57,96 +57,10 @@
                             <!-- Navigation Menu-->
                             <ul class="navigation-menu">
                                 <li>
-                                    <a href="index-2.html">
+                                    <a href="?page=dashboard">
                                         <span><i class="zmdi zmdi-view-dashboard"></i></span>
-                                        <span> Dashboard </span> </a>
+                                        <span> Orçamentos </span> </a>
                                 </li>
-                                <li class="has-submenu">
-                                    <a href="#">
-                                        <span><i class="zmdi zmdi-invert-colors"></i></span>
-                                        <span> User Interface </span> </a>
-                                    <ul class="submenu megamenu">
-                                        <li>
-                                            <ul>
-                                                <li><a href="ui-buttons.html">Buttons</a></li>
-                                                <li><a href="ui-cards.html">Cards</a></li>
-                                                <li><a href="ui-typography.html">Typography </a></li>
-                                                <li><a href="ui-checkbox-radio.html">Checkboxs-Radios</a></li>
-                                                <li><a href="ui-icons.html">Icons</a></li>
-                                                <li><a href="ui-images.html">Images</a>
-                                                <li><a href="ui-widgets.html">Widgets</a></li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <ul>
-                                                <li><a href="ui-modals.html">Modals</a></li>
-                                                <li><a href="ui-notification.html">Notification</a></li>
-                                                <li><a href="ui-range-slider.html">Range Slider</a></li>
-                                                <li><a href="ui-components.html">Components</a>
-                                                <li><a href="ui-sweetalert.html">Sweet Alert</a>
-                                                <li><a href="ui-masonry.html">Masonry</a>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-
-                                <li class="has-submenu">
-                                    <a href="#"><span><i class="zmdi zmdi-layers"></i></span><span> Other </span> </a>
-                                    <ul class="submenu">
-                                        <li class="has-submenu">
-                                            <a href="#">Forms</a>
-                                            <ul class="submenu">
-                                                <li><a href="form-elements.html">Form Elements</a></li>
-                                                <li><a href="form-advanced.html">Advanced Form</a></li>
-                                                <li><a href="form-validation.html">Form Validation</a></li>
-                                                <li><a href="form-wizard.html">Form Wizard</a></li>
-                                                <li><a href="form-summernote.html">Summernote</a></li>
-                                                <li><a href="form-uploads.html">Form Uploads</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="has-submenu">
-                                            <a href="#">Tables</a>
-                                            <ul class="submenu">
-                                                <li><a href="tables-basic.html">Basic Tables</a></li>
-                                                <li><a href="tables-datatable.html">Data Table</a></li>
-                                                <li><a href="tables-editable.html">Editable Table</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="has-submenu">
-                                            <a href="#">Charts</a>
-                                            <ul class="submenu">
-                                                <li><a href="chart-flot.html">Flot Chart</a></li>
-                                                <li><a href="chart-morris.html">Morris Chart</a></li>
-                                                <li><a href="chart-chartist.html">Chartist Charts</a></li>
-                                                <li><a href="chart-other.html">Other Chart</a></li>
-                                            </ul>
-                                        </li>
-
-                                        <li class="has-submenu">
-                                            <a href="#">Maps</a>
-                                            <ul class="submenu">
-                                                <li><a href="map-google.html">Google Maps</a></li>
-                                                <li><a href="map-vector.html">Vector Maps</a></li>
-                                            </ul>
-                                        </li>
-
-                                    </ul>
-                                </li>
-
-                                <li class="has-submenu">
-                                    <a href="#"> <span><i class="zmdi zmdi-collection-item"></i></span><span> Pages </span> </a>
-                                    <ul class="submenu">
-                                        <li><a href="page-starter.html">Starter Page</a></li>
-                                        <li><a href="page-timeline.html">Timeline</a></li>
-                                        <li><a href="page-login.html">Login</a></li>
-                                        <li><a href="page-register.html">Register</a></li>
-                                        <li><a href="page-recoverpw.html">Recover Password</a></li>
-                                        <li><a href="page-lock-screen.html">Lock Screen</a></li>
-                                        <li><a href="page-confirm-mail.html">Confirm Mail</a></li>
-                                        <li><a href="page-404.html">Error 404</a></li>
-                                    </ul>
-                                </li>
-
                             </ul>
                             <!-- End navigation menu  -->
                         </div>
@@ -184,15 +98,14 @@
 
                             <li class="dropdown user-box">
                                 <a href="#" class="dropdown-toggle waves-effect waves-light profile " data-toggle="dropdown" aria-expanded="true">
-                                    <img src="../assets/images/users/avatar-1.jpg" alt="user-img" class="img-circle user-img">
+                                    <img src="../assets/images/users/avatar-6.jpg" alt="user-img" class="img-circle user-img">
                                     <div class="user-status away"><i class="zmdi zmdi-dot-circle"></i></div>
                                 </a>
 
                                 <ul class="dropdown-menu">
-                                    <li><a href="javascript:void(0)"><i class="ti-user m-r-5"></i> Profile</a></li>
-                                    <li><a href="javascript:void(0)"><i class="ti-settings m-r-5"></i> Settings</a></li>
-                                    <li><a href="javascript:void(0)"><i class="ti-lock m-r-5"></i> Lock screen</a></li>
-                                    <li><a href="javascript:void(0)"><i class="ti-power-off m-r-5"></i> Logout</a></li>
+                                    <li><a href="javascript:void(0)"><i class="ti-user m-r-5"></i> Peril</a></li>
+                                    <li><a href="javascript:void(0)"><i class="ti-settings m-r-5"></i> Configurações</a></li>
+                                    <li><a href="?"><i class="ti-power-off m-r-5"></i> Logout</a></li>
                                 </ul>
                             </li>
                             <?php endif; ?>
@@ -217,7 +130,102 @@
         </header>
         <!-- End Navigation Bar-->
 
-        <?php include((isset($_GET['page']) ? $_GET['page'] : 'login') . '.html'); ?>
+        <div class="wrapper">
+            <div class="container">
+
+                <?php include((isset($_GET['page']) ? $_GET['page'] : 'login') . '.html'); ?>
+
+                <!-- Footer -->
+                <footer class="footer text-right">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-6">
+                                2017 &copy; TP - To Precisando
+                            </div>
+                            <div class="col-xs-6">
+                                <ul class="pull-right list-inline m-b-0">
+                                    <li>
+                                        <a href="#">About</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Help</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+                <!-- End Footer -->
+
+            </div>
+            <!-- end container -->
+
+            <!-- Right Sidebar -->
+            <div class="side-bar right-bar">
+                <a href="javascript:void(0);" class="right-bar-toggle">
+                    <i class="zmdi zmdi-close-circle-o"></i>
+                </a>
+                <h4 class="">Notifications</h4>
+                <div class="notification-list nicescroll">
+                    <ul class="list-group list-no-border user-list">
+                        <li class="list-group-item">
+                            <a href="#" class="user-list-item">
+                                <div class="avatar">
+                                    <img src="../assets/images/users/avatar-2.jpg" alt="">
+                                </div>
+                                <div class="user-desc">
+                                    <span class="name">Estanislau</span>
+                                    <span class="desc">Nova solicitação</span>
+                                    <span class="time">há 2 horas</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="#" class="user-list-item">
+                                <div class="icon">
+                                    <i class="zmdi zmdi-money"></i>
+                                </div>
+                                <div class="user-desc">
+                                    <span class="name">Orçamento aceito</span>
+                                    <span class="desc">José aceitou seu orçamento</span>
+                                    <span class="time">há 5 horas</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="#" class="user-list-item">
+                                <div class="icon">
+                                    <i class="zmdi zmdi-comment"></i>
+                                </div>
+                                <div class="user-desc">
+                                    <span class="name">Novo comentário</span>
+                                    <span class="desc">Maria comentou seu orçamento</span>
+                                    <span class="time">há 1 dia</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="#" class="user-list-item">
+                                <div class="avatar">
+                                    <img src="../assets/images/users/avatar-3.jpg" alt="">
+                                </div>
+                                <div class="user-desc">
+                                    <span class="name">David</span>
+                                    <span class="desc">Orçamento foi atualizado</span>
+                                    <span class="time">há 2 dias</span>
+                                </div>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+            <!-- /Right-bar -->
+
+        </div>
 
         <!-- jQuery  -->
         <script src="../assets/js/jquery.min.js"></script>
