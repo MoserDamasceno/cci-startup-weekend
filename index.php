@@ -44,7 +44,7 @@
 
                     <!-- LOGO -->
                     <div class="topbar-left">
-                        <a href="index-2.html" class="logo">
+                        <a href="?page=dashboard" class="logo">
                             <span>CC<span>I</span></span>
                             <!--<span><img src="assets/images/logo.png" alt="logo" style="height: 20px;"></span>-->
                         </a>
