@@ -10,7 +10,7 @@
 
         <link rel="shortcut icon" href="../assets/images/favicon.ico">
 
-        <title>CCI - Cotrate Confie Indique</title>
+        <title>TP - To Precisando</title>
 
         <!--Morris Chart CSS -->
 		<link rel="stylesheet" href="../assets/plugins/morris/morris.css">
@@ -45,7 +45,7 @@
                     <!-- LOGO -->
                     <div class="topbar-left">
                         <a href="?page=dashboard" class="logo">
-                            <span>CC<span>I</span></span>
+                            <span>T<span>P</span></span>
                             <!--<span><img src="../assets/images/logo.png" alt="logo" style="height: 20px;"></span>-->
                         </a>
                     </div>
