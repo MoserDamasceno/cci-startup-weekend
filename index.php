@@ -10,7 +10,7 @@
 
         <link rel="shortcut icon" href="assets/images/favicon.ico">
 
-        <title>Flacto - Responsive Admin Dashboard Template</title>
+        <title>CCI - Cotrate Confie Indique</title>
 
         <!--Morris Chart CSS -->
 		<link rel="stylesheet" href="assets/plugins/morris/morris.css">
@@ -45,7 +45,7 @@
                     <!-- LOGO -->
                     <div class="topbar-left">
                         <a href="index-2.html" class="logo">
-                            <span>Flac<span>to</span></span>
+                            <span>CC<span>I</span></span>
                             <!--<span><img src="assets/images/logo.png" alt="logo" style="height: 20px;"></span>-->
                         </a>
                     </div>
